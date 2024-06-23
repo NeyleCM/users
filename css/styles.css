@@ -1,13 +1,105 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* DESDE AQUÏ PRFEE */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: rgba(216, 213, 213, 0.651);
   margin: 0;
   padding: 20px;
 }
 
 h1 {
+  font-size: 30px;
+  font-weight: 30px;
   text-align: center;
   color: #333;
+  font-weight: bold;
+}
+
+/* --- DESDE AQUÍ YO */
+
+.contenedor {
+  border: rgb(192, 190, 190) 2px solid;
+  border-radius: 5px;
+  display: flex;
+  width: 450px;
+  gap: 20px;
+  margin: 10px;
+  background-color: aliceblue;
+
+}
+
+#listaUsuarios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+.lista {
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 10px;
+margin: 20px;
 }
 
 
+.infoUsuario {
+  border: rgb(153, 147, 147) 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+} 
+
+.foto {
+  width: 110px;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+
+strong {
+  font-weight: bold;
+}
