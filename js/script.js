@@ -12,7 +12,8 @@ const todosUsuarios = () => {
   ... usuario,
       edad: edadesAleatorias,
       address: `${usuario.address.street}, ${usuario.address.suite}, 
-      ${usuario.address.city}`
+      ${usuario.address.city}`,
+      company: usuario.company.name
       }
   
   const template = `<div class="contenedor">
